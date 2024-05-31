@@ -44,7 +44,7 @@ namespace DragonesFORM.Data.Model
 
 
 
-        public Dragones(int numD) => this.numD = numD;
+     
 
         public Dragones()
         {

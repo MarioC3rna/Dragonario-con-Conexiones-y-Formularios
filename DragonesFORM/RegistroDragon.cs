@@ -18,6 +18,7 @@ namespace DragonesFORM
     {
         private SoundPlayer Sonido;
         private Timer timer;
+
         Dragones especies = new Dragones();
         Conexion Clscone = new Conexion();
         private Conexion dragonescata;
