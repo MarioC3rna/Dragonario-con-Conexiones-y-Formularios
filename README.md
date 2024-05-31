@@ -1,4 +1,5 @@
 -----------------------RegistroDragones Formulario---------------
+
 La clase principal es RegistroDragon que hereda de Form y contiene los controles de la interfaz de usuario (TextBox, DataGridView, botones, etc.).
 Se importan las clases Dragones y Conexion de los namespaces DragonesFORM.Data.Model y DragonesFORM.Data.Acces respectivamente. Estas clases probablemente representan el modelo de datos de un dragón y la lógica de acceso a datos (posiblemente a una base de datos).
 La clase tiene un objeto SoundPlayer llamado Sonido y un Timer que se utiliza para detener el sonido después de un cierto tiempo.
