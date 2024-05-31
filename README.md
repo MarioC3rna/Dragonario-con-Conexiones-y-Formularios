@@ -19,6 +19,7 @@ El método Timer_Tick se ejecuta cada 2 segundos (según el intervalo configurad
 La aplicación utiliza una ruta de archivo local (C:\Users\mario\Downloads\libro.wav) para reproducir el sonido.
 
 ---------------------Conexion--------------------
+
 Conexion(): Es el constructor de la clase y establece la cadena de conexión a la base de datos MySQL.
 Insertar(Dragones especies): Este método inserta un nuevo registro en la tabla dragonario utilizando los valores proporcionados en el objeto especies de la clase Dragones.
 Update(Dragones especies): Actualiza un registro existente en la tabla dragonario con los nuevos valores del objeto especies.
