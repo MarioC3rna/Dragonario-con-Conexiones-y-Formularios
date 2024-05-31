@@ -156,47 +156,7 @@ namespace DragonesFORM.Data.Acces
             throw new NotImplementedException();
         }
 
-        public List<Dragones> ObtenerTodosLosDragones()
-        {
-            List<Dragones> vikinga = new List<Dragones>();
-            string query = "SELECT*FROM dragonario";
-            MySqlCommand cmd = new MySqlCommand(query, connection);
-            try
-            {
-                connection.Open();
-                MySqlDataReader reader = cmd.ExecuteReader();
-                while (reader.Read())
-                {
-                    Dragones dragones = new Dragones
-                    (
-                     numD: reader.GetInt32("numD"),
-                     nombre: reader.GetString("nombre"),
-                     tipo: reader.GetString("tipo"),
-                     habitat: reader.GetString("habitat"),
-                     activo: reader.GetString("activo"),
-                     fuerza: reader.GetInt32("fuerza"),
-                     agilidad: reader.GetInt32("agilidad"),
-                     resistencia: reader.GetInt32("resistencia"),
-                     velocidad: reader.GetInt32("velocidad"),
-                     inteligencia: reader.GetInt32("inteligencia"),
-                     carisma: reader.GetInt32("carisma"),
-                     defensa: reader.GetInt32("defensa"),
-                     experiencia: reader.GetInt32("experiencia"),
-                     descripcion: reader.GetString("descripcion")
-                     );
-                    vikinga.Add(dragones);
-                }
-                reader.Close();
-            }
-            catch (Exception ex)
-            {
-
-                Console.WriteLine("Error:" + ex.Message);
-
-            }
-            return vikinga;
-
-        }
+        
 
 
 
