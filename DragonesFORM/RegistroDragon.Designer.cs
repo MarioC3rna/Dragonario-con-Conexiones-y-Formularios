@@ -76,7 +76,7 @@
             this.bttonTabla.BackColor = System.Drawing.Color.Transparent;
             this.bttonTabla.BackgroundImage = global::DragonesFORM.Properties.Resources.tabla12;
             this.bttonTabla.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.bttonTabla.Location = new System.Drawing.Point(20, 19);
+            this.bttonTabla.Location = new System.Drawing.Point(54, 24);
             this.bttonTabla.Name = "bttonTabla";
             this.bttonTabla.Size = new System.Drawing.Size(182, 84);
             this.bttonTabla.TabIndex = 0;
@@ -87,7 +87,7 @@
             // 
             this.bttonInsert.BackgroundImage = global::DragonesFORM.Properties.Resources.insertpe;
             this.bttonInsert.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.bttonInsert.Location = new System.Drawing.Point(20, 114);
+            this.bttonInsert.Location = new System.Drawing.Point(6, 117);
             this.bttonInsert.Name = "bttonInsert";
             this.bttonInsert.Size = new System.Drawing.Size(160, 87);
             this.bttonInsert.TabIndex = 1;
@@ -98,7 +98,7 @@
             // 
             this.bttonLimpiar.BackgroundImage = global::DragonesFORM.Properties.Resources.tablape;
             this.bttonLimpiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.bttonLimpiar.Location = new System.Drawing.Point(16, 218);
+            this.bttonLimpiar.Location = new System.Drawing.Point(54, 213);
             this.bttonLimpiar.Name = "bttonLimpiar";
             this.bttonLimpiar.Size = new System.Drawing.Size(164, 84);
             this.bttonLimpiar.TabIndex = 2;
@@ -109,7 +109,7 @@
             // 
             this.bttonUpdate.BackgroundImage = global::DragonesFORM.Properties.Resources.updatepe;
             this.bttonUpdate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.bttonUpdate.Location = new System.Drawing.Point(222, 17);
+            this.bttonUpdate.Location = new System.Drawing.Point(262, 29);
             this.bttonUpdate.Name = "bttonUpdate";
             this.bttonUpdate.Size = new System.Drawing.Size(166, 88);
             this.bttonUpdate.TabIndex = 3;
@@ -120,7 +120,7 @@
             // 
             this.bttonDelete.BackgroundImage = global::DragonesFORM.Properties.Resources.deletepe;
             this.bttonDelete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.bttonDelete.Location = new System.Drawing.Point(222, 117);
+            this.bttonDelete.Location = new System.Drawing.Point(204, 123);
             this.bttonDelete.Name = "bttonDelete";
             this.bttonDelete.Size = new System.Drawing.Size(166, 84);
             this.bttonDelete.TabIndex = 4;
@@ -140,18 +140,18 @@
             this.gbox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.gbox1.Location = new System.Drawing.Point(12, 12);
             this.gbox1.Name = "gbox1";
-            this.gbox1.Size = new System.Drawing.Size(412, 322);
+            this.gbox1.Size = new System.Drawing.Size(444, 322);
             this.gbox1.TabIndex = 5;
             this.gbox1.TabStop = false;
             this.gbox1.Enter += new System.EventHandler(this.gbox1_Enter);
             // 
             // bttonSiguiente
             // 
-            this.bttonSiguiente.BackgroundImage = global::DragonesFORM.Properties.Resources.siguientepe;
+            this.bttonSiguiente.BackgroundImage = global::DragonesFORM.Properties.Resources.buscar;
             this.bttonSiguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.bttonSiguiente.Location = new System.Drawing.Point(222, 218);
+            this.bttonSiguiente.Location = new System.Drawing.Point(236, 213);
             this.bttonSiguiente.Name = "bttonSiguiente";
-            this.bttonSiguiente.Size = new System.Drawing.Size(177, 83);
+            this.bttonSiguiente.Size = new System.Drawing.Size(202, 94);
             this.bttonSiguiente.TabIndex = 5;
             this.bttonSiguiente.UseVisualStyleBackColor = true;
             this.bttonSiguiente.Click += new System.EventHandler(this.bttonSiguiente_Click);
