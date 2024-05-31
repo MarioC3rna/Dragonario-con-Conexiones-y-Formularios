@@ -26,7 +26,7 @@ namespace DragonesFORM
             InitializeComponent();
 
 
-            Sonido = new SoundPlayer(@"C:\Users\mario\Downloads\Orquesta.wav");
+            Sonido = new SoundPlayer(@"C:/Users/mario/Downloads/ArchivoDragonesForm/Orquesta.wav");
 
 
             Sonido.Play();
@@ -49,6 +49,11 @@ namespace DragonesFORM
                 // Detener la reproducción del sonido
                 Sonido.Stop();
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

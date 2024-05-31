@@ -61,7 +61,7 @@ namespace DragonesFORM
             Clscone.Insertar(especies);
             dataGridView1.DataSource = dragonescata.LeerCatalogo();
             MessageBox.Show("Se ha agregado un Nuevo Dragon al libro");
-            Sonido = new SoundPlayer(@"C:\Users\mario\Downloads\libro.wav");
+            Sonido = new SoundPlayer(@"C:/Users/mario/Downloads/ArchivoDragonesForm/libro.wav");
             Sonido.Play();
             timer.Start();
         }
@@ -73,7 +73,7 @@ namespace DragonesFORM
                 {
                     DataTable dt = dragonescata.LeerCatalogo();
                     dataGridView1.DataSource = dt;
-                    Sonido = new SoundPlayer(@"C:\Users\mario\Downloads\libro.wav");
+                    Sonido = new SoundPlayer("C:/Users/mario/Downloads/ArchivoDragonesForm/libro.wav");
                     Sonido.Play();
                     timer.Start();
                 }
@@ -160,7 +160,7 @@ namespace DragonesFORM
             Clscone.Delete(especies);
             dataGridView1.DataSource = dragonescata.LeerCatalogo();
             MessageBox.Show("Se ha eliminado el Dragón del Libro");
-            Sonido = new SoundPlayer(@"C:\Users\mario\Downloads\libro.wav");
+            Sonido = new SoundPlayer(@"C:/Users/mario/Downloads/ArchivoDragonesForm/libro.wav");
             Sonido.Play();
             timer.Start();
         }
@@ -182,7 +182,7 @@ namespace DragonesFORM
            txtExperiencia.Clear();
            txtAgilidad.Clear();
            txtDescripcion.Clear();
-            Sonido = new SoundPlayer(@"C:\Users\mario\Downloads\libro.wav");
+            Sonido = new SoundPlayer(@"C:/Users/mario/Downloads/ArchivoDragonesForm/libro.wav");
             Sonido.Play();
             timer.Start();
         }
@@ -212,7 +212,7 @@ namespace DragonesFORM
             Clscone.Update(especies);
             dataGridView1.DataSource = dragonescata.LeerCatalogo();
             MessageBox.Show("Se han cambiado los atributos del Dragon");
-            Sonido = new SoundPlayer(@"C:\Users\mario\Downloads\libro.wav");
+            Sonido = new SoundPlayer(@"C:/Users/mario/Downloads/ArchivoDragonesForm/libro.wav");
             Sonido.Play();
             timer.Start();
         }
@@ -227,7 +227,7 @@ namespace DragonesFORM
             {
                 MessageBox.Show("Error al buscar: ");
             }
-            Sonido = new SoundPlayer(@"C:\Users\mario\Downloads\libro.wav");
+            Sonido = new SoundPlayer(@"C:/Users/mario/Downloads/ArchivoDragonesForm/libro.wav");
             Sonido.Play();
             timer.Start();
 
